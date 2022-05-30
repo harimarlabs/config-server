@@ -1,8 +1,28 @@
 eureka:
   client:
-    registerWithEureka: false
-    fetchRegistry: false
+    registerWithEureka: true
+    fetchRegistry: true
     serviceUrl:
       defaultZone: http://localhost:8761/eureka/
   instance:
     hostname: localhost
+spring: 
+  datasource:
+    driver-class-name: org.h2.Driver
+    url: jdbc:h2:file:d:/data/calyx-care-plan
+    username: sa
+    password: sa
+  h2:
+    console:
+      enabled: true
+      path: /h2-console 
+  application:
+    name: calyx-care-plan
+  jpa:
+    hibernate:
+      ddl-auto: update
+    show-sql: true
+    properties:
+      hibernate:
+        dialect: org.hibernate.dialect.H2Dialect
+    database-platform: org.hibernate.dialect.H2Dialect
