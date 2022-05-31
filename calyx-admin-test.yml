@@ -1,7 +1,7 @@
 spring:
   datasource:
     driver-class-name: org.mariadb.jdbc.Driver
-    url: jdbc:mariadb:aurora//cmsdb-instance-1.c0tyovlbd7c2.ap-south-1.rds.amazonaws.com:3306
+    url: jdbc:mariadb:aurora//cmsdb-instance-1.c0tyovlbd7c2.ap-south-1.rds.amazonaws.com:3306/test
     username: admin
     password: keSDW95KuzvQ
   jpa:
