@@ -2,5 +2,4 @@ eureka:
   client: 
     service-url: 
       defaultZone: http://15.206.164.95:8761/eureka/
-  instance: 
-    hostname: cloudtest
+
