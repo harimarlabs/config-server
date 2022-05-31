@@ -4,12 +4,9 @@ eureka:
     fetchRegistry: true
     serviceUrl:
       defaultZone: http://localhost:8761/eureka/
-  instance:
-    hostname: localhost
 spring: 
   datasource:
     driver-class-name: org.h2.Driver
-    url: jdbc:h2:file:d:/data/calyx-common
     username: sa
     password: sa
   h2:
