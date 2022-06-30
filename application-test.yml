@@ -1,5 +1,7 @@
 eureka: 
   client: 
+    registerWithEureka: false
+    fetchRegistry: false
     service-url: 
       defaultZone: http://cms-loadbalancer-test-3-200805129.ap-south-1.elb.amazonaws.com:9010/eureka/
 spring:
