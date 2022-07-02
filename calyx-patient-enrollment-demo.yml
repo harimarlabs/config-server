@@ -1,0 +1,8 @@
+server:  
+  servlet:
+    context-path: /patientenrollment
+
+feign:
+  request:
+    carePlanUrl: /careplan
+    notificationUrl: /notification
