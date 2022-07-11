@@ -18,3 +18,8 @@ spring:
       hibernate:
         dialect: org.hibernate.dialect.MySQL8Dialect
     database-platform: org.hibernate.dialect.MySQL8Dialect
+feign:
+   request:
+      patientEntrollementUrl: http://cms-loadbalancer-test-3-200805129.ap-south-1.elb.amazonaws.com:9008
+      carePlanUrl: http://cms-loadbalancer-test-3-200805129.ap-south-1.elb.amazonaws.com:9006
+      notificationUrl: http://cms-loadbalancer-test-3-200805129.ap-south-1.elb.amazonaws.com:9007
