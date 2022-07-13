@@ -23,6 +23,4 @@ feign:
       patientEntrollementUrl: http://cms-loadbalancer-test-3-200805129.ap-south-1.elb.amazonaws.com:9008
       carePlanUrl: http://cms-loadbalancer-test-3-200805129.ap-south-1.elb.amazonaws.com:9006
       notificationUrl: http://cms-loadbalancer-test-3-200805129.ap-south-1.elb.amazonaws.com:9007
-      inboundIntegrationUrl: http://cms-loadbalancer-test-3-200805129.ap-south-1.elb.amazonaws.com:9005
       authenticationUrl: http://cms-loadbalancer-test-3-200805129.ap-south-1.elb.amazonaws.com:9003
-      administrationUrl: http://cms-loadbalancer-test-3-200805129.ap-south-1.elb.amazonaws.com:9002 
