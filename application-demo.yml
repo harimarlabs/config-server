@@ -23,9 +23,9 @@ spring:
     database-platform: org.hibernate.dialect.MySQL8Dialect
 feign:
    request:
-      patientEntrollementUrl: cms-demo-2060989028.ap-south-1.elb.amazonaws.com/patientenrollment
-      carePlanUrl: cms-demo-2060989028.ap-south-1.elb.amazonaws.com/careplan
-      notificationUrl: cms-demo-2060989028.ap-south-1.elb.amazonaws.com/notification
-      inboundIntegrationUrl: cms-demo-2060989028.ap-south-1.elb.amazonaws.com/inboundintegration
-      authenticationUrl: cms-demo-2060989028.ap-south-1.elb.amazonaws.com/authentication
-      administrationUrl: cms-demo-2060989028.ap-south-1.elb.amazonaws.com/administration
+      patientEntrollementUrl: cms-demo-2039394018.ap-south-1.elb.amazonaws.com/patientenrollment
+      carePlanUrl: cms-demo-2039394018.ap-south-1.elb.amazonaws.com/careplan
+      notificationUrl: cms-demo-2039394018.ap-south-1.elb.amazonaws.com/notification
+      inboundIntegrationUrl: cms-demo-2039394018.ap-south-1.elb.amazonaws.com/inboundintegration
+      authenticationUrl: cms-demo-2039394018.ap-south-1.elb.amazonaws.com/authentication
+      administrationUrl: cms-demo-2039394018.ap-south-1.elb.amazonaws.com/administration
