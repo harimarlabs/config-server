@@ -7,9 +7,9 @@ eureka:
 spring:
   datasource:
     driver-class-name: software.aws.rds.jdbc.mysql.Driver
-    url: jdbc:mysql:aws://cmsdemodb-1.cluster-c0tyovlbd7c2.ap-south-1.rds.amazonaws.com:3306/cmsdemodb
+    url: jdbc:mysql:aws://cms-db-demo-3-instance-1.c0tyovlbd7c2.ap-south-1.rds.amazonaws.com:3306/cmsdbdemo3
     username: admin
-    password: wc8Ta3X5zVW5pkh5
+    password: dRodemuspeNu6R9w
     #url: jdbc:mysql:aws://cmsdb-instance-1.c0tyovlbd7c2.ap-south-1.rds.amazonaws.com:3306/test
     #username: admin
     #password: keSDW95KuzvQ
