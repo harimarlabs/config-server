@@ -26,3 +26,16 @@ feign:
       inboundIntegrationUrl: http://cms-loadbalancer-test-3-200805129.ap-south-1.elb.amazonaws.com:9005
       authenticationUrl: http://cms-loadbalancer-test-3-200805129.ap-south-1.elb.amazonaws.com:9003
       administrationUrl: http://cms-loadbalancer-test-3-200805129.ap-south-1.elb.amazonaws.com:9002 
+logging:
+  file:
+    path: ./target/logs/
+    name: ${logging.file.path}${spring.application.name}.log
+
+management:
+  endpoint:
+    logfile:
+      external_file: ${logging.file.path}${spring.application.name}.log
+  endpoints:
+    web:
+      exposure:
+        include: '*'
