@@ -39,3 +39,7 @@ management:
     web:
       exposure:
         include: '*'
+app: 
+  jwt-secret: Clayx-CMS
+  jwt-expiration-milliseconds: 604800000
+  
